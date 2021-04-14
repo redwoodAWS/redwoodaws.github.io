@@ -30,8 +30,12 @@
 #tr1{
  height:30px;
 }
+#moves td+td+td+td
+{
+  text-align: justify;
+}
 #moves tr:not(:first-child){
   height: 120px;
-  text-align: center
+  text-align: center;
 }
 </style>
