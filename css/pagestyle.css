@@ -1,0 +1,45 @@
+<style type="text/css">
+body {
+    
+}
+ 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: d4d2d3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+ 
+.sidenav a {
+    padding: 4px 4px 4px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s
+}
+ 
+.sidenav a:hover, .offcanvas a:focus{
+    color: #FFFFFF;
+}
+ 
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+ 
+@media screen and (max-height: 950px) {
+  .sidenav {padding-top: 10px;}
+  .sidenav a {font-size: 18px;}
+}</style>
+<div class="sidenav" id="mySidenav">
+	<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a> <a href="//pokemoncontestreborn.gportal.hu/gindex.php?pg=36578365"><img alt="" src="//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614416172.png" style="width: 167px; height: 250px;" /></a> <a href="//pokemoncontestreborn.gportal.hu/gindex.php?pg=36580828"><img alt="" src="//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614416183.png" style="width: 167px; height: 250px;" /></a> <a href="//pokemoncontestreborn.gportal.hu/gindex.php?pg=36580907"><img alt="" src="//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614416195.png" style="width: 167px; height: 250px;" /></a> <a href="//pokemoncontestreborn.gportal.hu/gindex.php?pg=36581250"><img alt="" src="//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614416202.png" style="width: 167px; height: 250px;" /></a> <a href="//pokemoncontestreborn.gportal.hu/gindex.php?pg=36590057"><img alt="" src="//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614416217.png" style="height: 250px; width: 167px;" /></a> <a href="//pokemoncontestreborn.gportal.hu/gindex.php?pg=36590058"><img alt="" src="//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614416226.png" style="width: 167px; height: 250px;" /></a></div>
