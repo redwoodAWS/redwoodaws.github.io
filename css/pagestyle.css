@@ -1,45 +1,270 @@
 <style type="text/css">
-body {
-    
+td.modtitle /* modulfejléc */
+   {padding-left: 4px; /* hány px-re legyen a menü neve a modul szélétől */
+    font-size: 15pt; /* a modul nevének mérete */
+    font-family: Times New Roman;
+    font-weight: none; /* a modul neve félkövér legyen (bold) vagy ne (none) */
+    color: #000000; /* a modul nevének színe */
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #9c9899; /* a modulfejléc színe */
+    background-image: url("//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614352588.png"); /* ha képet szeretnél modulfejlécnek a none helyére írd a kép URL címét, idézőjelek maradnak! */
+    height: 20px; /* a modulfejléc magassága */
+    BORDER-RIGHT: #000000 0px solid; /* keret, modul jobb oldalán lévő szegély */
+    BORDER-BOTTOM: #000 0px solid; /* keret, modul alján lévő szegély */
+    BORDER-TOP: #000 0px solid; /* keret, modul tetején lévő szegély */
+    BORDER-LEFT: #000 0px solid; /* keret, modul bal oldalán lévő szegély */
+   }
+
+td.menu /* menü modul, root menü */
+   {background-color: #d4d2d3; /* menü modulok belseje */}
+
+
+td.modbody /* többi modul */
+   {background-color: #d4d2d3; /* modulok háttérszíne, menü modul hátterének kerete */
+    background-image: url("none"); /* ha képet szeretnél modulháttérnek a none helyére írd a kép URL címét, idézőjelek maradnak */
+    font-size: 12pt; /* modulok tartalmának szövegmérete */
+    font-family: times new roman; /* modul tartalmának betűtípusa */
+    font-weight: none; /* modulok tartalmának szövege félkövér legyen (bold) vagy sem (none) */
+    BORDER-RIGHT: #000000 2px solid; /* keret, modul jobb oldalán lévő szegély */
+    BORDER-BOTTOM: #000 2px solid; /* keret, modul alján lévő szegély */
+    BORDER-TOP: #000 2px solid; /* keret, modul tetején lévő szegély */
+    BORDER-LEFT: #000 2px solid; /* keret, modul bal oldalán lévő szegély */
+    line-height: 14pt; /* sormagasság, ettől függ, hogy a sorok milyen közel vannak egymáshoz */
+    padding-left: 20px;
+    padding-right: 20px;
 }
- 
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: d4d2d3;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+
+img {
+  padding-left: 5px;
+padding-right: 5px;
 }
- 
-.sidenav a {
-    padding: 4px 4px 4px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #000000;
-    display: block;
-    transition: 0.3s
-}
- 
-.sidenav a:hover, .offcanvas a:focus{
-    color: #FFFFFF;
-}
- 
-.closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px !important;
-    margin-left: 50px;
-}
- 
-@media screen and (max-height: 950px) {
-  .sidenav {padding-top: 10px;}
-  .sidenav a {font-size: 18px;}
+
+h2 /*a blog bejegyzésének címe, a hírek/cikkek modul bejegyzésének címe */
+   {font-size: 16pt; /* a bejegyzés címének mérete */
+    font-weight: bold; /* a bejegyzés címe félkövér legyen (bold) vagy ne (none) */
+    color: #000; /* a bejegyzés címének színe */
+    font-family: times new roman;
+    background-color: #7F7966; /* a bejegyzés címének háttérszíne */
+    background-image: url("//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614352588.png"); /* ha képet szeretnél a bejegyzés hátterének, a none helyére írd a kép URL címét, idézőjelek maradnak! */
+    BORDER-RIGHT: #000000 0px solid; /* keret, modul jobb oldalán lévő szegély */
+    BORDER-BOTTOM: #000 0px solid; /* keret, modul alján lévő szegély */
+    BORDER-TOP: #000 0px solid; /* keret, modul tetején lévő szegély */
+    BORDER-LEFT: #000 0px solid; /* keret, modul bal oldalán lévő szegély */}
+
+
+A:hover h2 /*  blog címe, ha ráviszed az egeret  */
+    {color: #000000; /* link színe */
+     background-color: #7F7966; //* link hátterének színe */
+     text-decoration: none; /* nem húzza alá a linket (none) */
+     font-family: times new roman; a link betűtípusa */
+     font-size: 16pt; /* a link mérete */
+     font-weight: bold; /* a link félkövér legyen (bold) vagy sem (none) */} 
+
+
+BODY
+   {margin-left:15px; /* hány pixelre legyen a portálod a bal oldaltól, ezt csak akkor használd, ha a bejelentkezés modulod középre van igazítva! ha bal/jobb oldalon van, akkor 0px-et adj meg! */
+  /* van 1-2 szövegrész, amire nem hat a td.modbody-nál megadottak, pl.: naptárnál a napok, egyszerű modul beállítások, stb., a lent lévő adatok ezekre vonatkoznak, nyugodtan add meg ugyanazt, amit a td.modbody-nál */
+    background-color: transparent; /* az oldal hátterének színe */
+    background-image: url("//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614345254.png"); /* ha képet szeretnél oldalháttérnek a none helyére írd a kép URL címét, idézőjelek maradnak */
+    background-attachment: scroll; /* a háttérkép áll (fixed), tartalommal gördül (scroll) */
+    background-position: top left; /* a háttérképet ettől a ponttól kezdi kirakni, most a bal sarok van megadva, ezt így hagyhatod */
+    background-repeat: repeat; /*háttérkép ismétlődjön (repeat) vagy ne (no-repeat)
+    COLOR: #000000; /* szövegszín */
+    font size: 12pt; /* szövegméret */
+    font-family: Times New Roman; /* betűtípus */}
+
+
+
+table, td /*a modulok mögötti háttér, addig amekkora oldal szélességet adtál meg a Stílus és a felületben */
+ {background-color: #transparent;}
+
+
+input,textarea /* rublikák pl. számlálónál, szövegdobozok */
+   {color:#000000; /* a rublikában lévő szöveg színe */
+    font-size: 12pt; /* a rublikában lévő szöveg mérete */
+    background: #7a7979; /* a rublika színe */
+    font-family: times new roman; /* a rublikában lévő szöveg betűtípusa */
+    border: #000 1px solid; /* keret a rublika körül */ }
+
+
+td.listheader /* blogplusz modul belső menüfejlécei (Friss bejegyzések, stb.), hozzászólások menüfejléce ( 2 hozzászólás) */
+    {height: auto; /* blogplusz modul belső menüfejléceinek magassága */
+     background-color: #9AA1AE; /* blogplusz modul belső menüfejléceinek színe */
+     background-image: url("//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614352588.png"); /* ha képet szeretnél a belső menüfejléceknél a none helyére írd a kép URL címét, idézőjelek maradnak */
+     border-left:  #000 0px solid; /* keret, blogplusz modul belső menüfejléceinek bal oldali szegélye */
+     border-right:  #000 0px solid; /* keret, blogplusz modul belső menüfejléceinek jobb oldali szegélye */
+     border-top:  #000 0px solid; /* keret, blogplusz modul belső menüfejléceinek tetejének szegélye */
+     border-bottom: #000 0px solid; /* keret, blogplusz modul belső menüfejléceinek aljának szegélye */
+     color: #000000; /* blogplusz modul belső menüfejléceinek címének színe pl. Friss bejegyzés */
+     font size: 14pt; /* blogplusz modul belső menüfejléceinek címének mérete pl. Friss bejegyzés */
+     font-family: Times New Roman
+     font-weight: bold; /* blogplusz modul belső menüfejléceinek címe félkövér legyen (bold) vagy sem (none) pl. Friss bejegyzés */}
+
+
+
+td.listheader3 /* vendégkönyv bejegyzéseinek fejlécei */
+    {height: auto; /* vendégkönyv modul bejegyzéseinek fejléceinek magassága, vigyázz! ez függ az itt megjelenő ikonok méretétől is, hiába akarsz 10 px-es magasságot megadni, ha az idézet ikonja 16 px magas */
+     background-color: #7a7979; /* vendégkönyv modul bejegyzéseinek fejléceinek színe */
+     background-image: url(); /* ha képet szeretnél a vendégkönyv bejegyzéseinek fejléceihez a zárójel közé írd a kép URL címét, idézőjelek közé tedd */
+     border-left:  #000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek fejléceinek bal oldali szegélye */
+     border-right:  #000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek fejléceinek jobb oldali szegélye */
+     border-top:  #000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek fejléceinek tetejének szegélye */
+     border-bottom: #000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek fejléceinek aljának szegélye */
+     color: #000000; /* vendégkönyv modulnál a hozzászólást író nevének színe */
+     font size: 14pt; /* vendégkönyv modulnál a hozzászólást író nevének mérete */
+     font-family: Times New Roman;
+     text-align: center;
+     font-weight: bold; /* vendégkönyv modulnál a hozzászólást író neve félkövér legyen (bold) vagy sem (none) */}
+
+
+
+
+td.list1 /* vendégkönyv bejegyzéseinek háttere, ez hat még a Blog modulnál arra a sávra, ahol írja, hogy Mit szólsz hozzá?, ha itt rákattintasz, akkor a vissza a bloghoz sávra, és minden második hozzászólásra; illetve a Képtár, Hírek/Cikkek modulokra is */
+    {background-color: #7a7979; /* vendégkönyv modul bejegyzéseinek hátterének színe */
+     border-left:  #000000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek hátterének bal oldali szegélye */
+     border-right:  #000000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek hátterének jobb oldali szegélye */
+     border-top:  #000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek hátterének tetejének szegélye */
+     border-bottom: #000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek hátterének aljának szegélye */
+     color: #000000; /* vendégkönyv modulnál hozzászólásásának színe */
+     font size: 14pt; /* vendégkönyv modulnál hozzászólásának szövegmérete */
+     font-family: Times New Roman;
+height: auto;
+
+     font-weight: none; /* vendégkönyv modulnál hozzászólása félkövér legyen (bold) vagy sem (none) */}
+
+
+
+td.list2 /* a blognál minden második hozzászólás (amikre nem a td.list1 hat) */
+    {background-color: #7a7979; /* hozzászólások hátterének színe */
+     border-left:  #cccccc 0px solid; /* keret, hozzászólások hátterének bal oldali szegélye */
+     border-right:  #cccccc 0px solid; /* keret, hozzászólások hátterének jobb oldali szegélye */
+     border-top:  #cccccc 0px solid; /* keret, hozzászólások hátterének tetejének szegélye */
+     border-bottom: #cccccc 0px solid; /* keret, hozzászólások hátterének aljának szegélye */
+     color: #000000; /* hozzászólások színe */
+     font size: 14pt; /* hozzászólások szövegmérete */
+     font-family: Times New Roman;
+
+     font-weight: none; /* vendégkönyv modulnál hozzászólása félkövér legyen (bold) vagy sem (none) */}
+
+
+td.list3 /* Hírek/Cikkek modulnál a cikkek fejlécei */
+    {background-color: #7a7979; /* a cikkek fejléceinek színe */
+     height: 20px;
+     background-image: url("none"); /* ha képet szeretnél a cikkek fejléceihez a zárójel közé írd a kép URL címét, idézőjelek közé tedd */
+     border-left:  #cccccc 0px solid; /* keret, a cikkek fejléceinek bal oldali szegélye */
+     border-right:  #cccccc 0px solid; /* keret, a cikkek fejléceinek jobb oldali szegélye */
+     border-top:  #cccccc 0px solid; /* keret, a cikkek fejléceinek tetejének szegélye */
+     border-bottom: #cccccc 0px solid; /* keret, a cikkek fejléceinek aljának szegélye */
+     color: #000000; /* a cikk címének színe */
+     font size: 16pt; /* a cikk címének mérete */
+     font-family: Times New Roman;
+ text-align: center;
+     font-weight: none; /* a cikk címe félkövér legyen (bold) vagy sem (none) */}
+
+
+.txtbold /* blognál az alcím és a hozzászólást író neve (amennyiben nem adta meg az email címét és nem bejelentkezett felhasználó - ilyenkor a linkeffektek hatnak rá, illetve még 1-2 hely, pl. naptár, hírek/cikkek törzsébe lévő tartalom, stb. */
+    {font-family: Times New Roman; /* blog alcím és hozzászóló nevének betűtípusa */
+     font-size: 13px; /* blog alcím és hozzászóló nevének mérete */
+     color: #000000; /* blog alcím és hozzászóló nevének színe */
+     font-weight: bold; /* blog alcím és hozzászóló nevének betűtípusa félkövér legyen (bold) vagy sem (none) */}
+
+
+
+
+/* itt a linkek tulajdonságait állíthatod be; ez a menü modulra nincs hatással, csak a többi linkre! */
+
+A:link /* link tulajdonságai, amikor még nem csináltál vele semmit */
+    {color:000;
+font-size: 12pt;
+     text-decoration: none; /* nem húzza alá a linket (none) */
+     font-family: Times New Roman; /* a link betűtípusa */
+     font-weight: bold; /* a link félkövér legyen (bold) vagy sem (none) */} 
+A:visited /* ha már látogatva volt a link, tehát, ha rákattintasz utána ezek a tulajdonságok érvényesülnek */
+    {color:000;
+font-size: 12pt;
+     text-decoration: none; /* nem húzza alá a linket (none) */
+     font-family: Times New Roman; /* a link betűtípusa */
+     font-weight: bold; /* a link félkövér legyen (bold) vagy sem (none) */} 
+A:hover /* ha ráviszed az egeret, ilyen tulajdonságokat vesz fel a link */
+    {color:000;
+font-size: 12pt;
+     text-decoration: none; /* nem húzza alá a linket (none) */
+     font-family: Times New Roman; /* a link betűtípusa */
+     text-transform: uppercase;
+     font-weight: bold; /* a link félkövér legyen (bold) vagy sem (none) */} 
+
+
+
+/* ez lényegében ugyanaz, mint a fenti linkkód, viszont ez a menü modulra hat! */
+
+A.menu:link /* link tulajdonságai, amikor még nem csináltál vele semmit */
+     {color:000;
+font-size: 12pt;
+     text-decoration: none; /* nem húzza alá a linket (none) */
+     font-family: Times New Roman; /* a link betűtípusa */
+     font-weight: bold; /* a link félkövér legyen (bold) vagy sem (none) */} 
+A:visited /* ha már látogatva volt a link, tehát, ha rákattintasz utána ezek a tulajdonságok érvényesülnek */
+    {color:000;
+font-size: 12pt;
+     text-decoration: none; /* nem húzza alá a linket (none) */
+     font-family: Times New Roman; /* a link betűtípusa */
+     font-weight: bold; /* a link félkövér legyen (bold) vagy sem (none) */} 
+A:hover /* ha ráviszed az egeret, ilyen tulajdonságokat vesz fel a link */
+    {color:000;
+font-size: 12pt;
+     text-decoration: none; /* nem húzza alá a linket (none) */
+     font-family: Times New Roman; /* a link betűtípusa */
+     text-transform: uppercase;
+     font-weight: bold; /* a link félkövér legyen (bold) vagy sem (none) */} 
 }</style>
-<div class="sidenav" id="mySidenav">
-	<a class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a> <a href="//pokemoncontestreborn.gportal.hu/gindex.php?pg=36578365"><img alt="" src="//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614416172.png" style="width: 167px; height: 250px;" /></a> <a href="//pokemoncontestreborn.gportal.hu/gindex.php?pg=36580828"><img alt="" src="//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614416183.png" style="width: 167px; height: 250px;" /></a> <a href="//pokemoncontestreborn.gportal.hu/gindex.php?pg=36580907"><img alt="" src="//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614416195.png" style="width: 167px; height: 250px;" /></a> <a href="//pokemoncontestreborn.gportal.hu/gindex.php?pg=36581250"><img alt="" src="//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614416202.png" style="width: 167px; height: 250px;" /></a> <a href="//pokemoncontestreborn.gportal.hu/gindex.php?pg=36590057"><img alt="" src="//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614416217.png" style="height: 250px; width: 167px;" /></a> <a href="//pokemoncontestreborn.gportal.hu/gindex.php?pg=36590058"><img alt="" src="//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614416226.png" style="width: 167px; height: 250px;" /></a></div>
+<style type="text/css">
+td > h2 { /* Cím formázása a cikksorozatban */
+   font-family: Times New Roman;
+   font-size: 16px !important;
+   text-transform: uppercase !important;
+   color: #000000 !important;
+   padding: 6px;
+   font-size: 16px !important;
+   text-align:center;
+}
+td.list3 { /*  pl. hirek/cikkek modulban a dátum */
+   font-family: Times New Roman;
+   font-size: 14px !important;
+   font-style: normal !important;
+   text-transform: none !important;
+   color: #000000 !important;
+   padding: 6px;
+   font-size: 12px !important;
+   text-align:right;
+}
+div > h2 { /* Cím formázása a teljes cikkben */
+   font-family: Times New Roman !important;
+   font-size: 14px !important;
+   text-transform: uppercase !important;
+   color: #000000 !important;
+   padding: 6px;
+   font-size: 14px !important;
+   text-align:center;
+}
+.column_main .txtbold { /* a hozzászóló neve a hozzászólásoknál, alcím a blogban, hírek/cikkek bevezető cikk kinézete */
+     font-family: Times New Roman;
+     font-size: 14px;
+     font-weight: normal;
+     color: #000000;
+     font-style: normal !important;
+}
+.txtnormal { /*  hirek/cikkek tartalom, blogplusz hozzászóló neve  */
+    background-color: transparent;
+    font-family: Times New Roman;
+    font-size: 14px;
+    font-weight: normal !important;
+    font-style: normal !important;
+    color: #000000;
+    line-height: 19px;
+    text-align: justify !important;
+}
+.just{ /* hírek/cikkek címe és a tartalom közötti távolság */
+    margin-top: -16px !important;
+}
+--></style>
