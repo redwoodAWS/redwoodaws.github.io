@@ -29,7 +29,6 @@
 }
 #tr1{
  height:30px;
- background-color: rgb(80,80,80);
 }
 #moves tr:not(:first-child){
   height: 95px;
