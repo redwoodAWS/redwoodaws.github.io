@@ -17,6 +17,7 @@
 }
 #th1{
   width:200px;
+  
 }
 #th2{
   width:50px;
@@ -33,5 +34,11 @@
 #moves tr:not(:first-child){
   height: 120px;
   text-align: center;
+}
+#moves td:first-child{
+}
+#illustration{
+	width: 150px;
+	height: 90px;
 }
 </style>
