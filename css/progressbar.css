@@ -2,6 +2,7 @@
 #happiness{
   width: 250px;
   background-color: #ddd;
+  align: center;
 }
 #currenthappiness{
 width: 100px;
