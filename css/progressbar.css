@@ -1,0 +1,14 @@
+<style type="text/css">
+#happiness{
+  width: 250px;
+  background-color: #ddd;
+}
+#currenthappiness{
+width: 100px;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
+  color: white;
+}
+</style>
