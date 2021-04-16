@@ -1,7 +1,7 @@
 <style type="text/css">
 #moves {
   font-family: font-family: Arial, Helvetica, sans-serif;
-  width: 500px;
+  width: 550px;
   border: 1px solid black;
 }
 
@@ -21,10 +21,14 @@
   width:50px;
 }
 #th3{
-  width:20px;
+  width:50px;
 }
 #th4{
-  width:220px;
+  width:200px;
+}
+#th5
+{
+  width:50px;	
 }
 #tr1{
  height:30px;
