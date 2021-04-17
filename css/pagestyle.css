@@ -7,7 +7,7 @@ td.modtitle /* modulfejléc */
     color: #000000; /* a modul nevének színe */
     text-align: center;
     text-transform: uppercase;
-    background-color: #fffff0; /* a modulfejléc színe */
+    background-color: #e9e9e6; /* a modulfejléc színe */
     background-image: none; /* ha képet szeretnél modulfejlécnek a none helyére írd a kép URL címét, idézőjelek maradnak! */
     height: 20px; /* a modulfejléc magassága */
     BORDER-RIGHT: #FF5349 0px solid; /* keret, modul jobb oldalán lévő szegély */
