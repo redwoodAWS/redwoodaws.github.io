@@ -11,10 +11,10 @@ td.modtitle /* modulfejléc */
     background-color: #e9e9e6; /* a modulfejléc színe */
     background-image: url("http://redwoodaws.github.io/images/fejlec.png"); /* ha képet szeretnél modulfejlécnek a none helyére írd a kép URL címét, idézőjelek maradnak! */
     height: 20px; /* a modulfejléc magassága */
-    BORDER-RIGHT: #FF5349 1px solid; /* keret, modul jobb oldalán lévő szegély */
-    BORDER-BOTTOM: #FF5349 1px solid; /* keret, modul alján lévő szegély */
-    BORDER-TOP: #FF5349 1px solid; /* keret, modul tetején lévő szegély */
-    BORDER-LEFT: #FF5349 1px solid; /* keret, modul bal oldalán lévő szegély */
+    BORDER-RIGHT: #FF5349 2px solid; /* keret, modul jobb oldalán lévő szegély */
+    BORDER-BOTTOM: #FF5349 2px solid; /* keret, modul alján lévő szegély */
+    BORDER-TOP: #FF5349 2px solid; /* keret, modul tetején lévő szegély */
+    BORDER-LEFT: #FF5349 2px solid; /* keret, modul bal oldalán lévő szegély */
    }
 
 td.menu /* menü modul, root menü */
