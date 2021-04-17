@@ -10,26 +10,26 @@ td.modtitle /* modulfejléc */
     background-color: #fffff0; /* a modulfejléc színe */
     background-image: none; /* ha képet szeretnél modulfejlécnek a none helyére írd a kép URL címét, idézőjelek maradnak! */
     height: 20px; /* a modulfejléc magassága */
-    BORDER-RIGHT: #000000 0px solid; /* keret, modul jobb oldalán lévő szegély */
-    BORDER-BOTTOM: #000 0px solid; /* keret, modul alján lévő szegély */
-    BORDER-TOP: #000 0px solid; /* keret, modul tetején lévő szegély */
-    BORDER-LEFT: #000 0px solid; /* keret, modul bal oldalán lévő szegély */
+    BORDER-RIGHT: #FF5349 0px solid; /* keret, modul jobb oldalán lévő szegély */
+    BORDER-BOTTOM: #FF5349 0px solid; /* keret, modul alján lévő szegély */
+    BORDER-TOP: #FF5349 0px solid; /* keret, modul tetején lévő szegély */
+    BORDER-LEFT: #FF5349 0px solid; /* keret, modul bal oldalán lévő szegély */
    }
 
 td.menu /* menü modul, root menü */
-   {background-color: #d4d2d3; /* menü modulok belseje */}
+   {background-color: #fffff0; /* menü modulok belseje */}
 
 
 td.modbody /* többi modul */
-   {background-color: #d4d2d3; /* modulok háttérszíne, menü modul hátterének kerete */
+   {background-color: #fffff0; /* modulok háttérszíne, menü modul hátterének kerete */
     background-image: url("none"); /* ha képet szeretnél modulháttérnek a none helyére írd a kép URL címét, idézőjelek maradnak */
     font-size: 12pt; /* modulok tartalmának szövegmérete */
     font-family: times new roman; /* modul tartalmának betűtípusa */
     font-weight: none; /* modulok tartalmának szövege félkövér legyen (bold) vagy sem (none) */
-    BORDER-RIGHT: #000000 2px solid; /* keret, modul jobb oldalán lévő szegély */
-    BORDER-BOTTOM: #000 2px solid; /* keret, modul alján lévő szegély */
-    BORDER-TOP: #000 2px solid; /* keret, modul tetején lévő szegély */
-    BORDER-LEFT: #000 2px solid; /* keret, modul bal oldalán lévő szegély */
+    BORDER-RIGHT: #FF5349 2px solid; /* keret, modul jobb oldalán lévő szegély */
+    BORDER-BOTTOM: #FF5349 2px solid; /* keret, modul alján lévő szegély */
+    BORDER-TOP: #FF5349 2px solid; /* keret, modul tetején lévő szegély */
+    BORDER-LEFT: #FF5349 2px solid; /* keret, modul bal oldalán lévő szegély */
     line-height: 14pt; /* sormagasság, ettől függ, hogy a sorok milyen közel vannak egymáshoz */
     padding-left: 20px;
     padding-right: 20px;
@@ -47,10 +47,10 @@ h2 /*a blog bejegyzésének címe, a hírek/cikkek modul bejegyzésének címe *
     font-family: times new roman;
     background-color: #7F7966; /* a bejegyzés címének háttérszíne */
     background-image: url("//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614352588.png"); /* ha képet szeretnél a bejegyzés hátterének, a none helyére írd a kép URL címét, idézőjelek maradnak! */
-    BORDER-RIGHT: #000000 0px solid; /* keret, modul jobb oldalán lévő szegély */
-    BORDER-BOTTOM: #000 0px solid; /* keret, modul alján lévő szegély */
-    BORDER-TOP: #000 0px solid; /* keret, modul tetején lévő szegély */
-    BORDER-LEFT: #000 0px solid; /* keret, modul bal oldalán lévő szegély */}
+    BORDER-RIGHT: #FF5349 0px solid; /* keret, modul jobb oldalán lévő szegély */
+    BORDER-BOTTOM: #FF5349 0px solid; /* keret, modul alján lévő szegély */
+    BORDER-TOP: #FF5349 0px solid; /* keret, modul tetején lévő szegély */
+    BORDER-LEFT: #FF5349 0px solid; /* keret, modul bal oldalán lévő szegély */}
 
 
 A:hover h2 /*  blog címe, ha ráviszed az egeret  */
@@ -66,7 +66,7 @@ BODY
    {margin-left:15px; /* hány pixelre legyen a portálod a bal oldaltól, ezt csak akkor használd, ha a bejelentkezés modulod középre van igazítva! ha bal/jobb oldalon van, akkor 0px-et adj meg! */
   /* van 1-2 szövegrész, amire nem hat a td.modbody-nál megadottak, pl.: naptárnál a napok, egyszerű modul beállítások, stb., a lent lévő adatok ezekre vonatkoznak, nyugodtan add meg ugyanazt, amit a td.modbody-nál */
     background-color: transparent; /* az oldal hátterének színe */
-    background-image: url("//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614345254.png"); /* ha képet szeretnél oldalháttérnek a none helyére írd a kép URL címét, idézőjelek maradnak */
+    background-image: none; /* ha képet szeretnél oldalháttérnek a none helyére írd a kép URL címét, idézőjelek maradnak */
     background-attachment: scroll; /* a háttérkép áll (fixed), tartalommal gördül (scroll) */
     background-position: top left; /* a háttérképet ettől a ponttól kezdi kirakni, most a bal sarok van megadva, ezt így hagyhatod */
     background-repeat: repeat; /*háttérkép ismétlődjön (repeat) vagy ne (no-repeat)
@@ -85,17 +85,17 @@ input,textarea /* rublikák pl. számlálónál, szövegdobozok */
     font-size: 12pt; /* a rublikában lévő szöveg mérete */
     background: #7a7979; /* a rublika színe */
     font-family: times new roman; /* a rublikában lévő szöveg betűtípusa */
-    border: #000 1px solid; /* keret a rublika körül */ }
+    border: #FF5349 1px solid; /* keret a rublika körül */ }
 
 
 td.listheader /* blogplusz modul belső menüfejlécei (Friss bejegyzések, stb.), hozzászólások menüfejléce ( 2 hozzászólás) */
     {height: auto; /* blogplusz modul belső menüfejléceinek magassága */
      background-color: #9AA1AE; /* blogplusz modul belső menüfejléceinek színe */
-     background-image: url("//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614352588.png"); /* ha képet szeretnél a belső menüfejléceknél a none helyére írd a kép URL címét, idézőjelek maradnak */
-     border-left:  #000 0px solid; /* keret, blogplusz modul belső menüfejléceinek bal oldali szegélye */
-     border-right:  #000 0px solid; /* keret, blogplusz modul belső menüfejléceinek jobb oldali szegélye */
-     border-top:  #000 0px solid; /* keret, blogplusz modul belső menüfejléceinek tetejének szegélye */
-     border-bottom: #000 0px solid; /* keret, blogplusz modul belső menüfejléceinek aljának szegélye */
+     background-image: none; /* ha képet szeretnél a belső menüfejléceknél a none helyére írd a kép URL címét, idézőjelek maradnak */
+     border-left:  #FF5349 0px solid; /* keret, blogplusz modul belső menüfejléceinek bal oldali szegélye */
+     border-right:  #FF5349 0px solid; /* keret, blogplusz modul belső menüfejléceinek jobb oldali szegélye */
+     border-top:  #FF5349 0px solid; /* keret, blogplusz modul belső menüfejléceinek tetejének szegélye */
+     border-bottom: #FF5349 0px solid; /* keret, blogplusz modul belső menüfejléceinek aljának szegélye */
      color: #000000; /* blogplusz modul belső menüfejléceinek címének színe pl. Friss bejegyzés */
      font size: 14pt; /* blogplusz modul belső menüfejléceinek címének mérete pl. Friss bejegyzés */
      font-family: Times New Roman
@@ -107,10 +107,10 @@ td.listheader3 /* vendégkönyv bejegyzéseinek fejlécei */
     {height: auto; /* vendégkönyv modul bejegyzéseinek fejléceinek magassága, vigyázz! ez függ az itt megjelenő ikonok méretétől is, hiába akarsz 10 px-es magasságot megadni, ha az idézet ikonja 16 px magas */
      background-color: #7a7979; /* vendégkönyv modul bejegyzéseinek fejléceinek színe */
      background-image: url(); /* ha képet szeretnél a vendégkönyv bejegyzéseinek fejléceihez a zárójel közé írd a kép URL címét, idézőjelek közé tedd */
-     border-left:  #000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek fejléceinek bal oldali szegélye */
-     border-right:  #000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek fejléceinek jobb oldali szegélye */
-     border-top:  #000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek fejléceinek tetejének szegélye */
-     border-bottom: #000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek fejléceinek aljának szegélye */
+     border-left:  #FF5349 0px solid; /* keret, vendégkönyv modul bejegyzéseinek fejléceinek bal oldali szegélye */
+     border-right:  #FF5349 0px solid; /* keret, vendégkönyv modul bejegyzéseinek fejléceinek jobb oldali szegélye */
+     border-top:  #FF5349 0px solid; /* keret, vendégkönyv modul bejegyzéseinek fejléceinek tetejének szegélye */
+     border-bottom: #FF5349 0px solid; /* keret, vendégkönyv modul bejegyzéseinek fejléceinek aljának szegélye */
      color: #000000; /* vendégkönyv modulnál a hozzászólást író nevének színe */
      font size: 14pt; /* vendégkönyv modulnál a hozzászólást író nevének mérete */
      font-family: Times New Roman;
@@ -122,10 +122,10 @@ td.listheader3 /* vendégkönyv bejegyzéseinek fejlécei */
 
 td.list1 /* vendégkönyv bejegyzéseinek háttere, ez hat még a Blog modulnál arra a sávra, ahol írja, hogy Mit szólsz hozzá?, ha itt rákattintasz, akkor a vissza a bloghoz sávra, és minden második hozzászólásra; illetve a Képtár, Hírek/Cikkek modulokra is */
     {background-color: #7a7979; /* vendégkönyv modul bejegyzéseinek hátterének színe */
-     border-left:  #000000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek hátterének bal oldali szegélye */
-     border-right:  #000000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek hátterének jobb oldali szegélye */
-     border-top:  #000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek hátterének tetejének szegélye */
-     border-bottom: #000 0px solid; /* keret, vendégkönyv modul bejegyzéseinek hátterének aljának szegélye */
+     border-left:  #FF5349 0px solid; /* keret, vendégkönyv modul bejegyzéseinek hátterének bal oldali szegélye */
+     border-right:  #FF5349 0px solid; /* keret, vendégkönyv modul bejegyzéseinek hátterének jobb oldali szegélye */
+     border-top:  #FF5349 0px solid; /* keret, vendégkönyv modul bejegyzéseinek hátterének tetejének szegélye */
+     border-bottom: #FF5349 0px solid; /* keret, vendégkönyv modul bejegyzéseinek hátterének aljának szegélye */
      color: #000000; /* vendégkönyv modulnál hozzászólásásának színe */
      font size: 14pt; /* vendégkönyv modulnál hozzászólásának szövegmérete */
      font-family: Times New Roman;
