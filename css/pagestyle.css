@@ -67,7 +67,7 @@ BODY
    {margin-left:15px; /* hány pixelre legyen a portálod a bal oldaltól, ezt csak akkor használd, ha a bejelentkezés modulod középre van igazítva! ha bal/jobb oldalon van, akkor 0px-et adj meg! */
   /* van 1-2 szövegrész, amire nem hat a td.modbody-nál megadottak, pl.: naptárnál a napok, egyszerű modul beállítások, stb., a lent lévő adatok ezekre vonatkoznak, nyugodtan add meg ugyanazt, amit a td.modbody-nál */
     background-color: transparent; /* az oldal hátterének színe */
-    background-image: url("http://i.ibb.co/bR16KBB/waterbell.png"); /* ha képet szeretnél oldalháttérnek a none helyére írd a kép URL címét, idézőjelek maradnak */
+    background-image: url("https://i.ibb.co/bR16KBB/waterbell.png"); /* ha képet szeretnél oldalháttérnek a none helyére írd a kép URL címét, idézőjelek maradnak */
     background-attachment: scroll; /* a háttérkép áll (fixed), tartalommal gördül (scroll) */
     background-position: top left; /* a háttérképet ettől a ponttól kezdi kirakni, most a bal sarok van megadva, ezt így hagyhatod */
     background-repeat: repeat; /*háttérkép ismétlődjön (repeat) vagy ne (no-repeat)*/
