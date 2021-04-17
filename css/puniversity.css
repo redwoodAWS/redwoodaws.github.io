@@ -9,7 +9,7 @@ margin-left: 15px;
     background-position: top left;
     background-repeat: repeat;
 }
-td.modtitle
+td.modtitle /*Modulfejléc*/
 {
 background-color: #e9e9e6;
 background-image: url("http://redwoodaws.github.io/images/fejlec.png");	
@@ -26,5 +26,18 @@ color: #000000;
 text-align: center;
 text-transform: uppercase;
 }
-
+td.modbody /* többi modul */
+   {background-color: #fffff0;
+    background-image: url("none");
+    font-size: 12pt;
+    font-family: times new roman;
+    font-weight: none;
+    BORDER-RIGHT: #FF5349 2px solid;
+    BORDER-BOTTOM: #FF5349 2px solid;
+    BORDER-TOP: #FF5349 2px solid;
+    BORDER-LEFT: #FF5349 2px solid;
+    line-height: 14pt;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 </style>
