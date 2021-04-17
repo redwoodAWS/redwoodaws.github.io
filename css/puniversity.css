@@ -13,5 +13,10 @@ td.modtitle
 {
 background-color: #e9e9e6;
 background-image: url("http://redwoodaws.github.io/images/fejlec.png");	
+height: 30px;
+BORDER-RIGHT: #FF5349 2px solid;
+BORDER-BOTTOM: #FF5349 2px solid;
+BORDER-TOP: #FF5349 2px solid;
+BORDER-LEFT: #FF5349 2px solid;
 }
 </style>
