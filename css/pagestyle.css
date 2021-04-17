@@ -3,12 +3,12 @@ td.modtitle /* modulfejléc */
    {padding-left: 4px; /* hány px-re legyen a menü neve a modul szélétől */
     font-size: 15pt; /* a modul nevének mérete */
     font-family: Times New Roman;
-    font-weight: none; /* a modul neve félkövér legyen (bold) vagy ne (none) */
+    font-weight: bold; /* a modul neve félkövér legyen (bold) vagy ne (none) */
     color: #000000; /* a modul nevének színe */
     text-align: center;
     text-transform: uppercase;
-    background-color: #9c9899; /* a modulfejléc színe */
-    background-image: url("//tesztoldalam97.gportal.hu/portal/tesztoldalam97/image/gallery/1614352588.png"); /* ha képet szeretnél modulfejlécnek a none helyére írd a kép URL címét, idézőjelek maradnak! */
+    background-color: #fffff0; /* a modulfejléc színe */
+    background-image: none; /* ha képet szeretnél modulfejlécnek a none helyére írd a kép URL címét, idézőjelek maradnak! */
     height: 20px; /* a modulfejléc magassága */
     BORDER-RIGHT: #000000 0px solid; /* keret, modul jobb oldalán lévő szegély */
     BORDER-BOTTOM: #000 0px solid; /* keret, modul alján lévő szegély */
