@@ -4,9 +4,13 @@ body {
 background-color: #f0f0f0; 
 font-family: verdana, tahoma, arial; 
 margin-left: 15px;
-    background-image: url("//i.ibb.co/bR16KBB/waterbell.png");
+    background-image: url("none");
     background-attachment: scroll;
     background-position: top left;
     background-repeat: repeat;
+}
+td.modtitle
+{
+background-image: url("http://redwoodaws.github.io/images/fejlec.png");)	
 }
 </style>
