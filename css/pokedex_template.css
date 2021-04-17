@@ -1,0 +1,16 @@
+<style type="text/css">
+#pokemon {
+  font-family: font-family: Arial, Helvetica, sans-serif;
+  width: 700px;
+  border: 1px solid black;
+}
+
+#pokemon td, #pokemon th {
+  
+  text-align:center;
+  vertical align: center;
+  font-size: 12px;
+  border: 1px solid black;
+
+}
+</style>
