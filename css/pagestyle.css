@@ -8,7 +8,7 @@ td.modtitle /* modulfejléc */
     text-align: center;
     text-transform: uppercase;
     background-color: #e9e9e6; /* a modulfejléc színe */
-    background-image: url("//redwoodaws.github.io/images/fejlec.png"); /* ha képet szeretnél modulfejlécnek a none helyére írd a kép URL címét, idézőjelek maradnak! */
+    background-image: url("http://redwoodaws.github.io/images/fejlec.png"); /* ha képet szeretnél modulfejlécnek a none helyére írd a kép URL címét, idézőjelek maradnak! */
     height: 20px; /* a modulfejléc magassága */
     BORDER-RIGHT: #FF5349 0px solid; /* keret, modul jobb oldalán lévő szegély */
     BORDER-BOTTOM: #FF5349 0px solid; /* keret, modul alján lévő szegély */
